@@ -14,12 +14,20 @@ Afterwards, type this command:
     
 Then run the file. The same goes for run_pretrained.m
 
-# The algorithm used in PingPongGANN
-
+The algorithm used in PingPongGANN
+------------
 Here I use genetic algorithm to train a neural network, which will play the PingPong game.
 
 The neural network is encoded as a sequence of real numbers. Crossover is performed in the same way as with binary sequences. Mutation is performed by pertubing the weights with a random (real) number.
 
-Here I only use a simple 1-hidden layer neural network. But maybe due to the fact that this is a very simple game, the results has been a little bit weird.
+Here I only use a simple 1-hidden layer neural network, with logistic sigmoid activation function. There are 2 output class, "uparrow" and "downarrow". There is no class "donothing" so sometimes you will see the patch juggle around in one place. The input to the network is the difference between the position of the ball and the patch position. The fitness function is simply the score.
+
+But maybe due to the fact that this is a very simple game, the results has been a little bit weird.
+
+Firstly, when I used 10 hidden units, the network simply follows the ball very closely. Perharps it learns to follow whatever direction the ball is moving in the y-axis.
 
 ![](https://user-images.githubusercontent.com/20016033/42417879-4ad01d24-82be-11e8-90f3-27671f8647eb.gif?raw=true "")
+
+Secondly, when I used 3 hidden units, the network just goes upwards, but when the ball closes in the networks moves in very quickly and pushes the ball away, which is quite weird.
+
+![pingponggann_2](https://user-images.githubusercontent.com/20016033/42418031-927c6328-82c1-11e8-86f2-6d8a749ee447.gif)
