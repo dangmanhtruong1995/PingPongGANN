@@ -30,4 +30,4 @@ Firstly, when I used 10 hidden units, the network simply follows the ball very c
 
 Secondly, when I used 3 hidden units, the network just goes upwards, but when the ball closes in the networks moves in very quickly and pushes the ball away, which is quite weird.
 
-![pingponggann_2](https://user-images.githubusercontent.com/20016033/42418031-927c6328-82c1-11e8-86f2-6d8a749ee447.gif)
+![](https://user-images.githubusercontent.com/20016033/42418031-927c6328-82c1-11e8-86f2-6d8a749ee447.gif?raw=true "")
