@@ -24,7 +24,7 @@ The neural network is encoded as a sequence of real numbers. Crossover is perfor
 
 Here I only use a simple 1-hidden layer neural network, with logistic sigmoid activation function. There are 2 output class, "uparrow" and "downarrow". There is no class "donothing" so sometimes you will see the patch juggle around in one place. The input to the network is the difference between the position of the ball and the patch position. The fitness function is simply the game score.
 
-The design of the neural network and the genetic algorith follows closely from the book 
+The design of the neural network and the genetic algorithm follows closely from the book 
 
                 AI techniques for game programming - Mat Buckland
 Some results
