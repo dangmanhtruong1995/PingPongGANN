@@ -29,7 +29,7 @@ The design of the neural network and the genetic algorithm follows closely from 
                 AI techniques for game programming - Mat Buckland
 Some results
 ------------
-Maybe due to the fact that this is a very simple game, the results has been a little bit weird.
+Maybe due to the fact that this is a very simple game, the results have been a little bit weird.
 
 Firstly, when I used 10 hidden units, the network simply follows the ball very closely. Perharps it learns to follow whatever direction the ball is moving in the y-axis.
 
