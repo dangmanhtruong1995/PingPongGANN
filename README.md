@@ -22,4 +22,4 @@ The neural network is encoded as a sequence of real numbers. Crossover is perfor
 
 Here I only use a simple 1-hidden layer neural network. But maybe due to the fact that this is a very simple game, the results has been a little bit weird.
 
-https://user-images.githubusercontent.com/20016033/42417879-4ad01d24-82be-11e8-90f3-27671f8647eb.gif
+![](https://user-images.githubusercontent.com/20016033/42417879-4ad01d24-82be-11e8-90f3-27671f8647eb.gif?raw=true "")
