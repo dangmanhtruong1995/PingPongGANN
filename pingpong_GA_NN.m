@@ -4,7 +4,8 @@ global Vx_ori Vy_ori nn
 % close all;clc
 nn = neural_network;
 % Vx=.001;Vy=.002;w=600;Step=0.001;count=0;D=1;
-Vx_ori = 0.001; Vy_ori = 0.002;
+% Vx_ori = 0.001; Vy_ori = 0.002;
+Vx_ori = 0.005; Vy_ori = 0.005;
 Vx=Vx_ori;Vy = Vy_ori;w=600;Step=0.001;count=0;D=1;
 s=get(0,'screensize');
 h.f=figure('menubar','none','numbertitle','off','name','PingPong','position',[s(3)/2-300,s(4)/2-300,w,w]);

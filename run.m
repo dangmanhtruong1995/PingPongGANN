@@ -1,6 +1,7 @@
-clear 
-clc
-rng('default');
+% clear 
+% clc
+% rng('default');
+set(0, 'DefaultFigureWindowStyle', 'docked');
 
 %% Configurable parameters
 
@@ -8,7 +9,7 @@ num_of_inputs = 2;
 num_of_hidden_units = 3;
 num_of_outputs = 1;
 
-num_of_chromosomes = 50;
+num_of_chromosomes = 20;
 crossover_rate = 0.8;
 mutation_rate = 0.1;
 num_of_elites = 1;
